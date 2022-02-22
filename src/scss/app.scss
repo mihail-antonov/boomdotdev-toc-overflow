@@ -20,10 +20,32 @@ html {
 }
 
 .main {
-  height: 100vh;
+  font-family: Laca;
+  padding-top: 20vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 10rem;
+  box-shadow: 50%;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 4px !important;
+  margin-bottom: 0px !important;
+}
+.box {
+  padding-top: 35vh;
+  width: 50vh;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
   flex-flow: column;
 }
+
+.button {
+  background-color: #448ff2;
+}
+
